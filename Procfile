@@ -1,2 +1,2 @@
-web: gunicorn main.wsgi
+web: gunicorn twittersentimentanalysis.wsgi -log-file-
 
