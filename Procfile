@@ -1,2 +1,2 @@
-web: gunicorn twittersentimentanalysis.wsgi
+web: gunicorn twittersentimentanalysis:app
 
