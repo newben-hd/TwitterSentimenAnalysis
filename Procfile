@@ -1,2 +1,2 @@
-web: gunicorn twittersentimentanalysis:app
+web: gunicorn main:app
 
