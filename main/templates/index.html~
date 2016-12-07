@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="sec_graph">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8" id="graph">
+	<h2>Real Time Tweet Sentiment Score</h2>
+	<p id="graph_choice"></p>
+	<div>
+	  {% include "highcharts.html" %}
+	</div>
+	<h3>About the project</h3>
+	<hr>
+	<p>Website for twitter sentiment analysis using:
+	  <ul>
+	    <li>Highcharts</li>
+	    <li>Twitter API</li>
+	    <li>Django</li>
+	    <li>Bootstrap3.0</li>
+	  </ul>
+	</p>
+      </div>
+      <div class="col-md-4" id="article">
+	<h3>Top 10 Tweets</h3>
+	{% include "timeline.html" %}
+      </div>
+    </div>
+  </div>
+</section>
+<section id="sec_tweets">
+  <div class="container">
+    <div class="row">
+      {% for tweet in tweets %}
+      <div class="col-md-3">
+	<div class="panel panel-default">
+	  <div class="panel-heading">
+	    <h3 class="panel-title"></h3>
+	  </div>
+	  <div class="panel-body">{{ tweet.text }}</div>
+	</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock content %}

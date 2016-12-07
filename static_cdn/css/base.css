@@ -1,0 +1,66 @@
+/* Styling
+=================================== */
+header, #article, .navbar-custom li{
+    box-shadow: 0 10px 15px #aaa;
+}
+footer{
+    box-shadow: 0 -10px 15px #aaa;
+}
+/* Grid
+=================================== */
+/* Typography
+=================================== */
+/* Navbar */
+.navbar-custom .navbar-brand{
+    font-size: 30px;
+    color: white;
+}
+.navbar-custom{
+    background-color: #e55d87;
+    font-size: 20px;
+}
+.navbar-custom a{
+    color: white;
+}
+.navbar-custom li{
+    background-color: orange;
+    margin-right: 5px;
+}
+.navbar-custom li:hover{
+    text-decoration: underline;
+}
+/* Header
+=================================== */
+header{
+    padding: 0.5% 0;
+    background: #e55d87;
+    border-bottom: 20px solid orange;
+}
+.navbar{
+    margin-bottom: 0 !important;
+}
+/* Section - sec_graph
+=================================== */
+#article, #graph{
+    margin: 3% 0 3% 0;
+}
+#article{
+    background: #e55d87;
+    border-top: 20px solid orange;
+    padding: 15px;
+}
+/* Section - sec_tweets
+=================================== */
+#sec_tweets{
+    padding: 15px;
+    margin-bottom: 200px;
+}
+/* Footer
+=================================== */
+footer{
+    padding: 0.5% 0;
+    background: #e55d87;
+    border-top: 20px solid orange;
+    font-size: 20px;
+    color: white;
+}

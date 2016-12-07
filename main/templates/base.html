@@ -1,0 +1,16 @@
+{% load static %}
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href='{% static "css/base.css" %}' />
+    <link rel="stylesheet" href='{% static "css/responsive.css" %}' />
+    {% include "cdn_head.html" %}
+  </head>
+  <body>
+    {% include "header.html" %}
+    {% block content %}{% endblock %}
+    {% include "footer.html" %}
+    {% include "cdn_body.html" %}
+  </body>
+</html>

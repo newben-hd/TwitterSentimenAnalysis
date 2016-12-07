@@ -1,0 +1,99 @@
+/* Styling
+=================================== */
+body{
+    background: rgb(241,244,249) !important;
+}
+header, #article{
+    box-shadow: 0 10px 15px #aaa;
+}
+footer{
+    box-shadow: 0 -10px 15px #aaa;
+}
+hr{
+    border: 0;
+    margin: 1.35em auto;
+    box-sizing: border-box;
+}
+.divider{
+    border-width: 0 0 1px;
+    color: orange;
+    border-style: solid;
+}
+/* Grid - Bootstrap
+=================================== */
+/* Typography
+=================================== */
+.title{
+    text-transform: uppercase;
+    color: #e55d87;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+/* Navbar */
+.navbar-custom .navbar-brand{
+    font-size: 30px;
+    color: white;
+}
+.navbar-custom{
+    background-color: #e55d87;
+    font-size: 20px;
+}
+.navbar-custom a{
+    color: white;
+}
+.navbar-custom li:hover{
+    text-decoration: underline;
+}
+.nav-tabs{
+    margin-top: 3%;
+}
+/* Header
+=================================== */
+header{
+    padding: 0.5% 0;
+    background: #e55d87;
+    border-bottom: 20px solid orange;
+}
+.navbar{
+    margin-bottom: 0 !important;
+}
+/* Section - sec_graph
+=================================== */
+#sec_graph{
+    margin-top: 3%;
+}
+#article{
+    background: #e55d87;
+    border-top: 20px solid orange;
+    padding: 15px;
+    margin-top: 3%;
+}
+.nav-tabs li{
+    padding-right: 1%;
+    margin: auto;
+}
+/* Section - sec_tweets
+=================================== */
+#sec_tweets{
+    margin-top: 3%;
+    padding: 15px;
+    margin-bottom: 100px;
+}
+.panel-custom .panel-heading{
+    background: orange;
+    box-shadow: 0 10px 15px #aaa;
+}
+.panel-custom .panel-body{
+    background: #e55d87;
+    box-shadow: 0 10px 15px #aaa;
+}
+/* Footer
+=================================== */
+footer{
+    padding: 0.5% 0;
+    background: #e55d87;
+    border-top: 20px solid orange;
+    font-size: 20px;
+    color: white;
+}
